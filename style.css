@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(247, 215, 172);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3{
+    font-size: 2rem;
+    color: crimson;
+    text-align: center;
+}
+
+.game{
+    display: grid;
+    margin: 40px auto;
+    grid-template-columns: repeat(4,120px);
+    grid-row-gap:3em;
+    grid-column-gap:2.5em;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#gameBoard div{
+    height: 150px;
+    width: 80px;
+    border: 1px solid blue;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5em;
+    color: brown;
+    background-color: rgb(232, 222, 222);
+    border-radius: 7px;
+}
+
+.cardBack{
+      width: 100px;
+    height: 150px;
+    background: linear-gradient(45deg, #0008ff 25%, transparent 25%) -10px 0,
+                linear-gradient(45deg, transparent 75%, #ff0000 75%) -10px 0,
+                linear-gradient(45deg, transparent 75%, #4c00ff 75%) 0px 0,
+                linear-gradient(45deg, #0400ff 25%, #ffffff 25%) 0px 0;
+    background-size: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
