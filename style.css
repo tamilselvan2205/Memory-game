@@ -46,3 +46,15 @@ h3{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+.won{
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    color:#0008ff;
+    width: 500px;
+    margin: 0px auto;
+    font-weight: bold;
+}
